@@ -1,0 +1,259 @@
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Linux version 4.14.117-ev3dev-2.3.5-ev3 (david@freyr) (gcc version 6.4.1 20171012 (Linaro GCC 6.4-2017.11)) #1 PREEMPT Sat Mar 7 12:54:39 CST 2020
+[    0.000000] CPU: ARM926EJ-S [41069265] revision 5 (ARMv5TEJ), cr=0005317f
+[    0.000000] CPU: VIVT data cache, VIVT instruction cache
+[    0.000000] OF: fdt: Machine model: LEGO MINDSTORMS EV3
+[    0.000000] Memory policy: Data cache writeback
+[    0.000000] Reserved memory: created DMA memory pool at 0x80000000, size 0 MiB
+[    0.000000] OF: reserved mem: initialized node serial@80000000, compatible id shared-dma-pool
+[    0.000000] DaVinci da850/omap-l138/am18x variant 0x1
+[    0.000000] On node 0 totalpages: 16384
+[    0.000000] free_area_init_node: node 0, pgdat c07081e0, node_mem_map c3f79000
+[    0.000000]   DMA zone: 128 pages used for memmap
+[    0.000000]   DMA zone: 0 pages reserved
+[    0.000000]   DMA zone: 16384 pages, LIFO batch:3
+[    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+[    0.000000] pcpu-alloc: [0] 0 
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 16256
+[    0.000000] Kernel command line: console=tty1
+[    0.000000] PID hash table entries: 256 (order: -2, 1024 bytes)
+[    0.000000] Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+[    0.000000] Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.000000] Memory: 53552K/65536K available (5071K kernel code, 259K rwdata, 1660K rodata, 172K init, 158K bss, 11984K reserved, 0K cma-reserved)
+[    0.000000] Virtual kernel memory layout:
+                   vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+                   fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+                   vmalloc : 0xc4800000 - 0xff800000   ( 944 MB)
+                   lowmem  : 0xc0000000 - 0xc4000000   (  64 MB)
+                   modules : 0xbf000000 - 0xc0000000   (  16 MB)
+                     .text : 0xc0008000 - 0xc04fc3c8   (5073 kB)
+                     .init : 0xc069d000 - 0xc06c8000   ( 172 kB)
+                     .data : 0xc06c8000 - 0xc0708ca0   ( 260 kB)
+                      .bss : 0xc070d854 - 0xc073542c   ( 159 kB)
+[    0.000000] SLUB: HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] Preemptible hierarchical RCU implementation.
+[    0.000000]  Tasks RCU enabled.
+[    0.000000] NR_IRQS: 325
+[    0.000000] clocksource: timer0_1: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+[    0.000000] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 89478484971ns
+[    0.000563] Console: colour dummy device 80x30
+[    0.002617] console [tty1] enabled
+[    0.002775] Calibrating delay loop... 148.88 BogoMIPS (lpj=744448)
+[    0.070258] pid_max: default: 32768 minimum: 301
+[    0.070901] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.071092] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.073894] CPU: Testing write buffer coherency: ok
+[    0.076926] Setting up static identity map for 0xc0008400 - 0xc000843c
+[    0.077688] Hierarchical SRCU implementation.
+[    0.081895] devtmpfs: initialized
+[    0.106514] random: get_random_u32 called from bucket_table_alloc+0x14c/0x198 with crng_init=0
+[    0.108665] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.108950] futex hash table entries: 256 (order: -1, 3072 bytes)
+[    0.109691] pinctrl core: initialized pinctrl subsystem
+[    0.113001] NET: Registered protocol family 16
+[    0.114608] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.117439] cpuidle: using governor menu
+[    0.142003] GPIO line 6 (batt_volt_en) hogged as output/high
+[    0.197061] edma 1c00000.edma: memcpy is disabled
+[    0.210687] edma 1c00000.edma: TI EDMA DMA engine driver
+[    0.211914] edma 1e30000.edma: memcpy is disabled
+[    0.225019] edma 1e30000.edma: TI EDMA DMA engine driver
+[    0.229719] SCSI subsystem initialized
+[    0.230613] usbcore: registered new interface driver usbfs
+[    0.231065] usbcore: registered new interface driver hub
+[    0.231649] usbcore: registered new device driver usb
+[    0.234779] Advanced Linux Sound Architecture Driver Initialized.
+[    0.236851] Bluetooth: Core ver 2.22
+[    0.237150] NET: Registered protocol family 31
+[    0.237268] Bluetooth: HCI device and connection manager initialized
+[    0.237422] Bluetooth: HCI socket layer initialized
+[    0.237552] Bluetooth: L2CAP socket layer initialized
+[    0.237678] Bluetooth: SCO socket layer initialized
+[    0.239624] clocksource: Switched to clocksource timer0_1
+[    0.295359] NET: Registered protocol family 2
+[    0.298613] TCP established hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.298887] TCP bind hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.299065] TCP: Hash tables configured (established 1024 bind 1024)
+[    0.299572] UDP hash table entries: 256 (order: 0, 4096 bytes)
+[    0.300023] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[    0.300856] NET: Registered protocol family 1
+[    0.302400] Unpacking initramfs...
+[    0.729656] random: fast init done
+[    1.874940] Freeing initrd memory: 3896K
+[    1.880061] workingset: timestamp_bits=30 max_order=14 bucket_order=0
+[    1.944532] io scheduler noop registered (default)
+[    1.944704] io scheduler mq-deadline registered
+[    1.944800] io scheduler kyber registered
+[    1.947099] i2c-legoev3 i2c-legoev3.3: registered on input port 1
+[    1.948126] i2c-legoev3 i2c-legoev3.4: registered on input port 2
+[    1.949185] i2c-legoev3 i2c-legoev3.5: registered on input port 3
+[    1.951458] i2c-legoev3 i2c-legoev3.6: registered on input port 4
+[    1.973495] pinctrl-single 1c14120.pinmux: 160 pins at pa fec14120 size 80
+[    1.982982] Serial: 8250/16550 driver, 3 ports, IRQ sharing disabled
+[    1.989201] serial8250.0: ttyS0 at MMIO 0x1c42000 (irq = 25, base_baud = 9375000) is a TI DA8xx/66AK2x
+[    1.992572] serial8250.1: ttyS1 at MMIO 0x1d0c000 (irq = 53, base_baud = 8250000) is a TI DA8xx/66AK2x
+[    1.995612] serial8250.2: ttyS2 at MMIO 0x1d0d000 (irq = 61, base_baud = 8250000) is a TI DA8xx/66AK2x
+[    2.013706] loop: module loaded
+[    2.016150] zram: Added device: zram0
+[    2.023022] spi_davinci spi_davinci.0: Controller at 0xfec41000
+[    2.030711] [drm] Initialized st7586 1.0.0 20170801 for spi1.0 on minor 0
+[    2.493272] Console: switching to colour frame buffer device 44x21
+[    2.502770] st7586 spi1.0: fb0:  frame buffer device
+[    2.505355] spi_davinci spi_davinci.1: Controller at 0xfef0e000
+[    2.522202] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    2.527029] ohci-da8xx: DA8XX
+[    2.538598] usbcore: registered new interface driver usb-storage
+[    2.546118] usb_phy_generic usb_phy_generic.0.auto: usb_phy_generic.0.auto supply vcc not found, using dummy regulator
+[    2.592318] i2c /dev entries driver
+[    2.608590] davinci-wdt davinci-wdt: heartbeat 60 sec
+[    2.614685] Bluetooth: HCI UART driver ver 2.3
+[    2.617101] Bluetooth: HCI UART protocol H4 registered
+[    2.627230] Bluetooth: HCI UART protocol BCSP registered
+[    2.630403] Bluetooth: HCI UART protocol LL registered
+[    2.635059] davinci_mmc da830-mmc.0: Got CD GPIO
+[    2.690603] davinci_mmc da830-mmc.0: Using DMA, 4-bit mode
+[    2.696682] hidraw: raw HID events driver (C) Jiri Kosina
+[    2.709080] usbcore: registered new interface driver usbhid
+[    2.717583] usbhid: USB HID core driver
+[    2.724837] usbcore: registered new interface driver r8712u
+[    2.744884] NET: Registered protocol family 10
+[    2.752767] Segment Routing with IPv6
+[    2.755234] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+[    2.773288] NET: Registered protocol family 17
+[    2.778558] mmc0: host does not support reading read-only switch, assuming write-enable
+[    2.788710] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    2.791456] Bluetooth: BNEP socket layer initialized
+[    2.794223] mmc0: new high speed SDHC card at address e624
+[    2.806074] mmcblk0: mmc0:e624 SK32G 29.7 GiB 
+[    2.824467]  mmcblk0: p1 p2
+[    2.827795] at24 0-0050: 16384 byte 24c128 EEPROM, read-only, 0 bytes/write
+[    2.866864] input: LEGO MINDSTORMS EV3 Speaker as /devices/platform/sound/input/input0
+[    2.888221] remoteproc remoteproc0: pru1 is available
+[    2.892037] adc ref: supplied by vcc5v
+[    2.902399] ohci-da8xx ohci-da8xx: USB Host Controller
+[    2.905805] ohci-da8xx ohci-da8xx: new USB bus registered, assigned bus number 1
+[    2.911350] ohci-da8xx ohci-da8xx: irq 59, io mem 0x01e25000
+[    2.924487] remoteproc remoteproc0: powering up pru1
+[    2.927011] remoteproc remoteproc0: Booting fw image ev3-pru1.fw, size 82036
+[    2.933684] virtio_rpmsg_bus virtio0: creating channel ev3-tacho-rpmsg addr 0x0
+[    2.938557] virtio_rpmsg_bus virtio0: rpmsg host is online
+[    2.943568] remoteproc remoteproc0: registered virtio0 (type 7)
+[    2.948193] remoteproc remoteproc0: remote processor pru1 is now up
+[    2.962289] ev3_pru virtio0.ev3-tacho-rpmsg.-1.0: new channel: 0x400 -> 0x0!
+[    2.987094] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+[    2.992741] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    2.997634] usb usb1: Product: USB Host Controller
+[    3.000677] usb usb1: Manufacturer: Linux 4.14.117-ev3dev-2.3.5-ev3 ohci_hcd
+[    3.005575] usb usb1: SerialNumber: ohci-da8xx
+[    3.011040] hub 1-0:1.0: USB hub found
+[    3.013701] hub 1-0:1.0: 1 port detected
+[    3.031146] lego-port port0: Registered 'ev3-ports:in1' on 'ev3-ports:in1'.
+[    3.040902] lego-port port1: Registered 'ev3-ports:in2' on 'ev3-ports:in2'.
+[    3.057756] lego-port port2: Registered 'ev3-ports:in3' on 'ev3-ports:in3'.
+[    3.068567] lego-port port3: Registered 'ev3-ports:in4' on 'ev3-ports:in4'.
+[    3.088279] lego-port port4: Registered 'ev3-ports:outA' on 'ev3-ports:outA'.
+[    3.101294] lego-port port5: Registered 'ev3-ports:outB' on 'ev3-ports:outB'.
+[    3.114511] lego-port port6: Registered 'ev3-ports:outC' on 'ev3-ports:outC'.
+[    3.131860] lego-port port7: Registered 'ev3-ports:outD' on 'ev3-ports:outD'.
+[    3.138432] ti_omapl_pru_suart 1c30000.serial: assigned reserved memory node serial@80000000
+[    3.146299] 1c30000.serial: ttySU0 at MMIO 0x1d00000 (irq = 254, base_baud = 8250000) is a suart_tty
+[    3.154271] 1c30000.serial: ttySU1 at MMIO 0x1d00000 (irq = 256, base_baud = 8250000) is a suart_tty
+[    3.160700] ti_omapl_pru_suart 1c30000.serial: ti_omapl_pru_suart device registered (pru_clk=150000000, asp_clk=132000000)
+[    3.174271] input: EV3 Brick Buttons as /devices/platform/gpio_keys/input/input1
+[    3.190736] ALSA device list:
+[    3.195156]   #0: LEGO MINDSTORMS EV3 Speaker connected to ehrpwm.0
+[    3.211592] Freeing unused kernel memory: 172K
+[    3.214140] This architecture does not have kernel memory protection.
+[    3.500075] usb 1-1: new full-speed USB device number 2 using ohci-da8xx
+[    3.545643] tacho-motor motor0: Registered 'lego-ev3-m-motor' on 'ev3-ports:outA'.
+[    3.569404] lego-port port4: Added new device 'ev3-ports:outA:lego-ev3-m-motor'
+[    3.584254] tacho-motor motor1: Registered 'lego-ev3-l-motor' on 'ev3-ports:outB'.
+[    3.600488] tacho-motor motor2: Registered 'lego-ev3-m-motor' on 'ev3-ports:outD'.
+[    3.606690] lego-port port5: Added new device 'ev3-ports:outB:lego-ev3-l-motor'
+[    3.630782] lego-port port7: Added new device 'ev3-ports:outD:lego-ev3-m-motor'
+[    3.648076] tacho-motor motor3: Registered 'lego-ev3-l-motor' on 'ev3-ports:outC'.
+[    3.672211] lego-port port6: Added new device 'ev3-ports:outC:lego-ev3-l-motor'
+[    3.748467] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+[    3.783112] usb 1-1: New USB device found, idVendor=7392, idProduct=7811
+[    3.794432] random: systemd-udevd: uninitialized urandom read (16 bytes read)
+[    3.799597] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[    3.811760] usb 1-1: Product: 802.11n WLAN Adapter
+[    3.821219] usb 1-1: Manufacturer: Realtek
+[    3.831221] usb 1-1: SerialNumber: 00e04c000001
+[    3.909594] random: udevadm: uninitialized urandom read (16 bytes read)
+[    4.244801] lego-port port2: Added new device 'ev3-ports:in3:ev3-uart-host'
+[    4.578734] lego-port port3: Added new device 'ev3-ports:in4:ev3-uart-host'
+[    4.636727] lego-port port1: Added new device 'ev3-ports:in2:ev3-uart-host'
+[    4.711280] lego-port port0: Added new device 'ev3-ports:in1:ev3-uart-host'
+[    8.591231] random: crng init done
+[    8.593615] random: 7 urandom warning(s) missed due to ratelimiting
+[   17.663110] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+[   19.114962] systemd[1]: System time before build time, advancing clock.
+[   19.261799] ip_tables: (C) 2000-2006 Netfilter Core Team
+[   19.362977] systemd[1]: systemd 232 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN)
+[   19.392758] systemd[1]: Detected architecture arm.
+[   19.466439] systemd[1]: Set hostname to <ev3dev>.
+[   22.492819] systemd[1]: openrobertalab.service: Cannot add dependency job, ignoring: Unit openrobertalab.service is masked.
+[   22.605648] systemd[1]: Listening on Journal Socket (/dev/log).
+[   22.636722] systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.
+[   22.664724] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[   22.685476] systemd[1]: Listening on udev Kernel Socket.
+[   22.708239] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[   22.732233] systemd[1]: Reached target Encrypted Volumes.
+[   24.444483] zram0: detected capacity change from 0 to 100663296
+[   24.487657] systemd[1]: Starting File System Check on Root Device...
+[   24.806103] systemd[1]: Starting Set the console keyboard layout...
+[   24.872715] RPC: Registered named UNIX socket transport module.
+[   24.872740] RPC: Registered udp transport module.
+[   24.872754] RPC: Registered tcp transport module.
+[   24.872767] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[   25.330576] systemd[1]: Mounted RPC Pipe File System.
+[   25.423162] systemd[1]: Mounted POSIX Message Queue File System.
+[   25.595146] systemd[1]: Started Restore / save the current clock.
+[   25.920728] systemd[1]: Started Load Kernel Modules.
+[   26.020577] systemd[1]: Started Create list of required static device nodes for the current kernel.
+[   26.226222] Adding 98300k swap on /dev/zram0.  Priority:16383 extents:1 across:98300k SS
+[   26.609124] systemd[1]: Started swap with zram.
+[   26.710241] systemd[1]: Time has been changed
+[   26.855668] systemd[1]: Started File System Check Daemon to report status.
+[   29.698200] EXT4-fs (mmcblk0p2): re-mounted. Opts: errors=remount-ro
+[   30.036152] systemd[1]: Started Remount Root and Kernel File Systems.
+[   30.231799] systemd[1]: Starting udev Coldplug all Devices...
+[   30.426216] systemd[1]: Starting Load/Save Random Seed...
+[   31.216576] systemd[1]: Started Load/Save Random Seed.
+[   32.075637] systemd[1]: Started udev Kernel Device Manager.
+[   32.199161] systemd[1]: Started Journal Service.
+[   33.956453] systemd-journald[157]: Received request to flush runtime journal from PID 1
+[   63.457231] usbcore: registered new interface driver rtl8192cu
+[   66.667304] rtl8192cu 1-1:1.0 wlx08beac0a973d: renamed from wlan0
+[   73.749510] Registered EV3 UART sensor line discipline. (29)
+[   75.634294] lego-sensor sensor0: Registered 'lego-ev3-color' on 'ev3-ports:in2'.
+[   76.034281] lego-sensor sensor1: Registered 'lego-ev3-color' on 'ev3-ports:in1'.
+[   78.188155] lego-sensor sensor2: Registered 'lego-ev3-us' on 'ev3-ports:in3'.
+[   79.327719] tty ttyS0: Reconnected due to: No data since last keep-alive.
+[   79.567029] using random self ethernet address
+[   79.567065] using random host ethernet address
+[   79.787042] tty ttyS1: Reconnected due to: No data since last keep-alive.
+[   80.569410] using random self ethernet address
+[   80.569466] using random host ethernet address
+[   81.024810] usb0: HOST MAC 12:16:53:65:5c:7f
+[   81.027105] usb0: MAC 02:16:53:65:5c:7f
+[   81.062598] usb1: HOST MAC 32:16:53:65:5c:7f
+[   81.064262] usb1: MAC 22:16:53:65:5c:7f
+[   81.176946] lego-sensor sensor3: Registered 'lego-ev3-ir' on 'ev3-ports:in4'.
+[   81.433843] hrtimer: interrupt took 55709 ns
+[   83.712210] tty ttyS1: Reconnected due to: No data since last keep-alive.
+[   85.028133] tty ttySU0: Reconnected due to: No data since last keep-alive.
+[   87.334910] tty ttyS1: Reconnected due to: No data since last keep-alive.
+[   88.654005] tty ttySU0: Reconnected due to: No data since last keep-alive.
+[   91.119009] tty ttyS1: Reconnected due to: No data since last keep-alive.
+[   92.957131] nf_conntrack version 0.5.0 (1024 buckets, 4096 max)
+[   94.933614] tty ttyS1: Reconnected due to: No data since last keep-alive.
+[   98.733242] tty ttyS1: Reconnected due to: No data since last keep-alive.
+[  102.442520] tty ttyS1: Reconnected due to: No data since last keep-alive.
+[  103.277585] IPv6: ADDRCONF(NETDEV_UP): usb0: link is not ready
+[  103.612752] IPv6: ADDRCONF(NETDEV_UP): usb1: link is not ready
+[  106.216957] tty ttyS1: Reconnected due to: No data since last keep-alive.
+[  108.402338] IPv6: ADDRCONF(NETDEV_UP): wlx08beac0a973d: link is not ready
+[  109.943258] tty ttyS1: Reconnected due to: No data since last keep-alive.
+[  115.423167] IPv6: ADDRCONF(NETDEV_CHANGE): wlx08beac0a973d: link becomes ready

@@ -1,0 +1,790 @@
+Jun 01 23:59:38 ev3dev systemd[1]: Starting Cleanup of Temporary Directories...
+Jun 01 23:59:39 ev3dev systemd[1]: Started Cleanup of Temporary Directories.
+Jun 02 00:00:07 ev3dev ntpd[609]: 173.212.196.208 local addr 192.168.1.84 -> <null>
+Jun 02 00:00:17 ev3dev ntpd[609]: 66.228.58.20 local addr 192.168.1.84 -> <null>
+Jun 02 00:01:23 ev3dev ntpd[609]: 45.11.105.243 local addr 192.168.1.84 -> <null>
+Jun 02 00:03:16 ev3dev ntpd[609]: 69.10.161.7 local addr 192.168.1.84 -> <null>
+Jun 02 00:03:40 ev3dev kernel: lego-port port1: Removed device 'ev3-ports:in2:ev3-uart-host'
+Jun 02 00:03:52 ev3dev kernel: lego-sensor sensor1: Unregistered 'lego-ev3-color' on 'ev3-ports:in2'.
+Jun 02 00:03:52 ev3dev systemd[1]: Stopping LEGO MINDSTORMS EV3 UART Sensors...
+Jun 02 00:03:53 ev3dev systemd[1]: Stopped LEGO MINDSTORMS EV3 UART Sensors.
+Jun 02 00:03:58 ev3dev kernel: lego-port port1: Added new device 'ev3-ports:in2:ev3-uart-host'
+Jun 02 00:04:02 ev3dev systemd[1]: Starting LEGO MINDSTORMS EV3 UART Sensors...
+Jun 02 00:04:03 ev3dev systemd[1]: Started LEGO MINDSTORMS EV3 UART Sensors.
+Jun 02 00:04:05 ev3dev kernel: lego-sensor sensor4: Registered 'lego-ev3-color' on 'ev3-ports:in2'.
+Jun 02 00:04:09 ev3dev kernel: tty ttyS0: Reconnected due to: No data since last keep-alive.
+Jun 02 00:10:06 ev3dev kernel: lego-port port1: Removed device 'ev3-ports:in2:ev3-uart-host'
+Jun 02 00:10:07 ev3dev kernel: lego-sensor sensor4: Unregistered 'lego-ev3-color' on 'ev3-ports:in2'.
+Jun 02 00:10:08 ev3dev systemd[1]: Stopping LEGO MINDSTORMS EV3 UART Sensors...
+Jun 02 00:10:08 ev3dev systemd[1]: Stopped LEGO MINDSTORMS EV3 UART Sensors.
+Jun 02 00:10:21 ev3dev kernel: lego-port port1: Added new device 'ev3-ports:in2:ev3-uart-host'
+Jun 02 00:10:24 ev3dev systemd[1]: Starting LEGO MINDSTORMS EV3 UART Sensors...
+Jun 02 00:10:24 ev3dev systemd[1]: Started LEGO MINDSTORMS EV3 UART Sensors.
+Jun 02 00:10:27 ev3dev kernel: lego-sensor sensor5: Registered 'lego-ev3-color' on 'ev3-ports:in2'.
+Jun 02 00:10:30 ev3dev kernel: tty ttyS0: Reconnected due to: No data since last keep-alive.
+Jun 02 00:10:34 ev3dev kernel: tty ttyS0: Reconnected due to: No data since last keep-alive.
+Jun 02 00:15:53 ev3dev kernel: lego-port port1: Removed device 'ev3-ports:in2:ev3-uart-host'
+Jun 02 00:15:55 ev3dev kernel: lego-sensor sensor5: Unregistered 'lego-ev3-color' on 'ev3-ports:in2'.
+Jun 02 00:15:55 ev3dev systemd[1]: Stopping LEGO MINDSTORMS EV3 UART Sensors...
+Jun 02 00:15:56 ev3dev systemd[1]: Stopped LEGO MINDSTORMS EV3 UART Sensors.
+Jun 02 00:15:57 ev3dev kernel: lego-port port1: Added new device 'ev3-ports:in2:ev3-uart-host'
+Jun 02 00:16:03 ev3dev systemd[1]: Starting LEGO MINDSTORMS EV3 UART Sensors...
+Jun 02 00:16:03 ev3dev systemd[1]: Started LEGO MINDSTORMS EV3 UART Sensors.
+Jun 02 00:16:04 ev3dev kernel: lego-sensor sensor6: Registered 'lego-ev3-color' on 'ev3-ports:in2'.
+Jun 02 00:16:08 ev3dev kernel: tty ttyS0: Reconnected due to: No data since last keep-alive.
+Jun 02 00:16:32 ev3dev kernel: lego-port port0: Removed device 'ev3-ports:in1:ev3-uart-host'
+Jun 02 00:16:36 ev3dev kernel: lego-port port0: Added new device 'ev3-ports:in1:ev3-uart-host'
+Jun 02 00:16:36 ev3dev kernel: lego-sensor sensor3: Unregistered 'lego-ev3-color' on 'ev3-ports:in1'.
+Jun 02 00:16:36 ev3dev systemd[1]: Stopping LEGO MINDSTORMS EV3 UART Sensors...
+Jun 02 00:16:37 ev3dev systemd[1]: Stopped LEGO MINDSTORMS EV3 UART Sensors.
+Jun 02 00:16:44 ev3dev systemd[1]: Starting LEGO MINDSTORMS EV3 UART Sensors...
+Jun 02 00:16:45 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:45 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:45 ev3dev systemd[1]: Started LEGO MINDSTORMS EV3 UART Sensors.
+Jun 02 00:16:45 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:45 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:46 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:46 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:46 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:46 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:50 ev3dev kernel: serial8250_interrupt: 13 callbacks suppressed
+Jun 02 00:16:50 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:50 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:50 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:51 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:51 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:51 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:51 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:52 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:52 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:52 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:55 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:16:55 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:55 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:55 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:56 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:56 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:56 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:56 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:57 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:57 ev3dev ntpd[609]: 94.130.231.116 local addr 192.168.1.84 -> <null>
+Jun 02 00:16:57 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:16:57 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:00 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:17:00 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:00 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:01 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:01 ev3dev ntpd[609]: 72.5.72.15 local addr 192.168.1.84 -> <null>
+Jun 02 00:17:01 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:01 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:01 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:01 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:02 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:02 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:02 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:05 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:17:05 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:05 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:06 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:06 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:06 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:06 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:10 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:17:10 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:10 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:11 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:11 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:11 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:11 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:15 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:17:15 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:15 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:16 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:16 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:16 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:16 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:17 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:17 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:17 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:17 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:20 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:17:20 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:21 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:21 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:21 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:21 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:21 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:22 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:22 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:22 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:22 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:25 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:17:25 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:26 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:26 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:26 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:26 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:30 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:17:30 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:31 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:31 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:31 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:31 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:32 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:32 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:32 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:32 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:33 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:35 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:17:36 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:36 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:36 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:36 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:36 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:37 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:37 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:37 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:37 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:38 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:41 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:17:41 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:41 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:41 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:41 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:41 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:43 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:46 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:17:46 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:46 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:46 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:46 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:48 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:51 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:17:51 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:51 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:51 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:51 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:52 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:52 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:52 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:52 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:53 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:53 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:56 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:17:56 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:56 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:56 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:56 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:57 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:57 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:57 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:57 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:58 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:17:58 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:01 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:18:01 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:01 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:01 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:01 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:02 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:02 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:02 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:02 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:03 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:03 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:06 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:18:06 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:06 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:06 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:08 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:08 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:11 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:18:11 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:11 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:11 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:13 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:13 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:13 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:16 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:18:16 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:16 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:16 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:17 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:17 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:17 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:17 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:18 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:18 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:18 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:21 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:18:21 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:21 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:22 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:22 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:22 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:22 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:22 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:23 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:23 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:23 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:26 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:18:26 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:26 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:28 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:28 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:28 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:31 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:18:31 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:31 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:32 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:32 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:32 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:32 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:33 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:33 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:33 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:33 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:36 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:18:36 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:36 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:37 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:37 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:37 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:37 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:38 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:38 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:38 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:38 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:41 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:18:41 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:43 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:43 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:43 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:43 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:46 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:18:46 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:48 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:48 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:48 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:48 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:51 ev3dev kernel: lego-port port0: Removed device 'ev3-ports:in1:ev3-uart-host'
+Jun 02 00:18:51 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:18:51 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:52 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:18:52 ev3dev systemd[1]: Stopping LEGO MINDSTORMS EV3 UART Sensors...
+Jun 02 00:18:52 ev3dev systemd[1]: Stopped LEGO MINDSTORMS EV3 UART Sensors.
+Jun 02 00:18:53 ev3dev kernel: lego-port port0: Added new device 'ev3-ports:in1:ev3-uart-host'
+Jun 02 00:18:56 ev3dev systemd[1]: Starting LEGO MINDSTORMS EV3 UART Sensors...
+Jun 02 00:18:56 ev3dev systemd[1]: Started LEGO MINDSTORMS EV3 UART Sensors.
+Jun 02 00:18:58 ev3dev kernel: lego-sensor sensor7: Registered 'lego-ev3-color' on 'ev3-ports:in1'.
+Jun 02 00:23:32 ev3dev kernel: lego-port port1: Removed device 'ev3-ports:in2:ev3-uart-host'
+Jun 02 00:23:34 ev3dev kernel: lego-sensor sensor6: Unregistered 'lego-ev3-color' on 'ev3-ports:in2'.
+Jun 02 00:23:34 ev3dev systemd[1]: Stopping LEGO MINDSTORMS EV3 UART Sensors...
+Jun 02 00:23:34 ev3dev systemd[1]: Stopped LEGO MINDSTORMS EV3 UART Sensors.
+Jun 02 00:23:36 ev3dev kernel: lego-port port1: Added new device 'ev3-ports:in2:ev3-uart-host'
+Jun 02 00:23:39 ev3dev systemd[1]: Starting LEGO MINDSTORMS EV3 UART Sensors...
+Jun 02 00:23:39 ev3dev systemd[1]: Started LEGO MINDSTORMS EV3 UART Sensors.
+Jun 02 00:23:41 ev3dev kernel: lego-sensor sensor8: Registered 'lego-ev3-color' on 'ev3-ports:in2'.
+Jun 02 00:23:58 ev3dev kernel: lego-port port0: Removed device 'ev3-ports:in1:ev3-uart-host'
+Jun 02 00:23:58 ev3dev kernel: lego-sensor sensor7: Unregistered 'lego-ev3-color' on 'ev3-ports:in1'.
+Jun 02 00:23:58 ev3dev systemd[1]: Stopping LEGO MINDSTORMS EV3 UART Sensors...
+Jun 02 00:23:58 ev3dev systemd[1]: Stopped LEGO MINDSTORMS EV3 UART Sensors.
+Jun 02 00:24:03 ev3dev kernel: lego-port port0: Added new device 'ev3-ports:in1:ev3-uart-host'
+Jun 02 00:24:04 ev3dev systemd[1]: Starting LEGO MINDSTORMS EV3 UART Sensors...
+Jun 02 00:24:05 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:05 ev3dev systemd[1]: Started LEGO MINDSTORMS EV3 UART Sensors.
+Jun 02 00:24:05 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:05 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:05 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:06 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:06 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:06 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:06 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:06 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:08 ev3dev kernel: tty ttySU0: Reconnected due to: frame overrun
+Jun 02 00:24:08 ev3dev kernel: tty ttySU1: Reconnected due to: frame overrun
+Jun 02 00:24:10 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:24:10 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:10 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:10 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:10 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:11 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:11 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:11 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:11 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:15 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:24:15 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:15 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:15 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:15 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:16 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:16 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:16 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:16 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:17 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:17 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:20 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:24:20 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:20 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:20 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:21 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:21 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:21 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:21 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:21 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:22 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:22 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:25 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:24:25 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:25 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:25 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:26 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:26 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:26 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:26 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:30 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:24:30 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:30 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:30 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:31 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:31 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:31 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:31 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:32 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:32 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:32 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:35 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:24:35 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:35 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:35 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:36 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:36 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:36 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:36 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:37 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:37 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:37 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:40 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:24:40 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:40 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:41 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:41 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:41 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:41 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:41 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:45 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:24:45 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:45 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:46 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:46 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:46 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:46 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:50 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:24:50 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:50 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:51 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:51 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:51 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:51 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:52 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:52 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:52 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:52 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:55 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:24:55 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:55 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:56 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:56 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:56 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:56 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:57 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:57 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:57 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:24:57 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:00 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:25:00 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:01 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:01 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:01 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:01 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:01 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:02 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:02 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:02 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:02 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:05 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:25:05 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:06 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:06 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:06 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:06 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:10 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:25:10 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:11 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:11 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:11 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:11 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:13 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:15 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:25:16 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:16 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:16 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:16 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:16 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:17 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:17 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:17 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:17 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:18 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:21 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:25:21 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:21 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:21 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:21 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:21 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:22 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:22 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:22 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:22 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:23 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:26 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:25:26 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:26 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:26 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:26 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:28 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:31 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:25:31 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:31 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:31 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:31 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:32 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:32 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:32 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:32 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:33 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:33 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:36 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:25:36 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:36 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:36 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:36 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:37 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:37 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:37 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:37 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:38 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:38 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:41 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:25:41 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:41 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:41 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:41 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:43 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:43 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:46 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:25:46 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:46 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:46 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:48 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:48 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:51 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:25:51 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:51 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:51 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:52 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:52 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:52 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:52 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:53 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:53 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:53 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:56 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:25:56 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:56 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:56 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:57 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:57 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:57 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:57 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:58 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:58 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:25:58 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:01 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:26:01 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:01 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:02 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:02 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:02 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:02 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:02 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:03 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:03 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:03 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:06 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:26:06 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:06 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:08 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:08 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:08 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:11 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:26:11 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:11 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:13 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:13 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:13 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:13 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:16 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:26:16 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:16 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:17 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:17 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:17 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:17 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:18 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:18 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:18 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:18 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:21 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:26:21 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:22 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:22 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:22 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:22 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:22 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:23 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:23 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:23 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:23 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:26 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:26:26 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:27 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:28 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:28 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:28 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:28 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:31 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:26:31 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:32 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:32 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:32 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:32 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:33 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:33 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:33 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:33 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:33 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:36 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:26:36 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:37 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:37 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:37 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:37 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:38 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:38 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:38 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:38 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:39 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:42 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:26:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:42 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:43 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:43 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:43 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:43 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:44 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:47 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:26:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:47 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:48 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:48 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:48 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:48 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:49 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:52 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:26:52 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:52 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:52 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:52 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:53 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:53 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:53 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:53 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:53 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:54 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:57 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:26:57 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:57 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:57 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:57 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:58 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:58 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:58 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:58 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:59 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:26:59 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:02 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:27:02 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:02 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:02 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:02 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:03 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:03 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:03 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:03 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:04 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:04 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:07 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:27:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:07 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:08 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:08 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:08 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:08 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:08 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:09 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:09 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:12 ev3dev kernel: serial8250_interrupt: 12 callbacks suppressed
+Jun 02 00:27:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:12 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:13 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:13 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:13 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:13 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:13 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:14 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:14 ev3dev kernel: serial8250: too much work for irq53
+Jun 02 00:27:16 ev3dev kernel: lego-port port0: Removed device 'ev3-ports:in1:ev3-uart-host'
+Jun 02 00:27:17 ev3dev systemd[1]: Stopping LEGO MINDSTORMS EV3 UART Sensors...
+Jun 02 00:27:17 ev3dev systemd[1]: Stopped LEGO MINDSTORMS EV3 UART Sensors.
+Jun 02 00:27:18 ev3dev kernel: lego-port port0: Added new device 'ev3-ports:in1:ev3-uart-host'
+Jun 02 00:27:19 ev3dev systemd[1]: Starting LEGO MINDSTORMS EV3 UART Sensors...
+Jun 02 00:27:19 ev3dev systemd[1]: Started LEGO MINDSTORMS EV3 UART Sensors.
+Jun 02 00:27:21 ev3dev kernel: lego-sensor sensor9: Registered 'lego-ev3-color' on 'ev3-ports:in1'.
+Jun 02 00:29:32 ev3dev wpa_supplicant[586]: wlx08beac0a973d: WPA: Group rekeying completed with 30:23:03:cb:2c:dd [GTK=CCMP]
+Jun 02 00:29:32 ev3dev wpa_supplicant[586]: wlx08beac0a973d: WPA: Group rekeying completed with 30:23:03:cb:2c:dd [GTK=CCMP]
+Jun 02 00:36:27 ev3dev ntpd[609]: 65.182.224.60 local addr 192.168.1.84 -> <null>
+Jun 02 00:46:57 ev3dev kernel: hrtimer: interrupt took 128348 ns
+Jun 02 01:24:28 ev3dev ntpd[609]: 2606:c680:0:b:3830:34ff:fe66:6663 local addr 2601:647:4b00:34:abe:acff:fe0a:973d -> <null>
+Jun 02 01:29:32 ev3dev wpa_supplicant[586]: wlx08beac0a973d: WPA: Group rekeying completed with 30:23:03:cb:2c:dd [GTK=CCMP]
+Jun 02 01:29:33 ev3dev wpa_supplicant[586]: wlx08beac0a973d: WPA: Group rekeying completed with 30:23:03:cb:2c:dd [GTK=CCMP]
+Jun 02 01:29:33 ev3dev wpa_supplicant[586]: wlx08beac0a973d: WPA: Group rekeying completed with 30:23:03:cb:2c:dd [GTK=CCMP]
+Jun 02 01:46:27 ev3dev sshd[826]: packet_write_wait: Connection from 192.168.1.52 port 60857: Broken pipe
+Jun 02 01:46:33 ev3dev sshd[730]: pam_unix(sshd:session): session closed for user robot
+Jun 02 01:47:58 ev3dev systemd-udevd[193]: seq 39459 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor8' is taking a long time
+Jun 02 01:48:16 ev3dev sshd[730]: pam_systemd(sshd:session): Failed to release session: Input/output error
+Jun 02 01:47:59 ev3dev systemd-udevd[193]: seq 39442 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor9' is taking a long time
+Jun 02 01:50:06 ev3dev systemd-udevd[193]: seq 39460 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor8' is taking a long time
+Jun 02 01:50:12 ev3dev systemd-udevd[193]: seq 39445 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor9' is taking a long time
+Jun 02 01:53:28 ev3dev systemd-udevd[193]: seq 39446 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor9' is taking a long time
+Jun 02 01:53:33 ev3dev systemd-udevd[193]: seq 39463 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor8' is taking a long time
+Jun 02 01:56:31 ev3dev systemd-udevd[193]: seq 39464 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor8' is taking a long time
+Jun 02 02:30:17 ev3dev connmand[538]: wlx08beac0a973d {RX} 193587 packets 28519309 bytes
+Jun 02 01:56:35 ev3dev systemd-udevd[193]: seq 39449 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor9' is taking a long time
+
+robot@ev3dev:~$ 

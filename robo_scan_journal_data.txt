@@ -1,0 +1,681 @@
+Jun 02 13:44:09 ev3dev systemd-journald[2809]: Journal started
+Jun 02 13:44:11 ev3dev systemd-journald[2809]: System journal (/var/log/journal/0a8ffb6d314b403ab9cb5dc4ba3f599d) is 416.0M, max 2.9G, 2.5G free.
+Jun 02 13:44:15 ev3dev systemd[1]: systemd-journald.service: Watchdog timeout (limit 3min)!
+Jun 02 13:44:18 ev3dev systemd[1]: systemd-journald.service: Killing process 164 (systemd-journal) with signal SIGABRT.
+Jun 02 13:44:19 ev3dev systemd-udevd[194]: seq 35769 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 13:44:19 ev3dev systemd[1]: systemd-journald.service: Main process exited, code=killed, status=6/ABRT
+Jun 02 13:44:20 ev3dev systemd[1]: systemd-journald.service: Unit entered failed state.
+Jun 02 13:44:20 ev3dev systemd[1]: systemd-journald.service: Failed with result 'watchdog'.
+Jun 02 13:44:21 ev3dev systemd[1]: systemd-journald.service: Service has no hold-off time, scheduling restart.
+Jun 02 13:44:21 ev3dev systemd[1]: Stopped Flush Journal to Persistent Storage.
+Jun 02 13:44:21 ev3dev systemd[1]: Stopping Flush Journal to Persistent Storage...
+Jun 02 13:44:21 ev3dev systemd[1]: Stopped Journal Service.
+Jun 02 13:44:21 ev3dev systemd[1]: Starting Journal Service...
+Jun 02 13:44:21 ev3dev systemd-udevd[194]: seq 35771 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 07:51:47 ev3dev systemd-udevd[194]: seq 35624 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 13:44:24 ev3dev systemd[1]: Started Journal Service.
+Jun 02 07:53:11 ev3dev systemd-udevd[194]: seq 35624 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 07:53:17 ev3dev systemd-udevd[194]: seq 35622 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 07:54:45 ev3dev systemd-udevd[194]: worker [2046] terminated by signal 9 (Killed)
+Jun 02 13:46:10 ev3dev systemd-udevd[194]: seq 35770 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 13:46:56 ev3dev systemd-udevd[194]: seq 35772 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 13:47:53 ev3dev systemd-udevd[194]: seq 35770 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 07:54:48 ev3dev systemd-udevd[194]: worker [2046] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 07:55:23 ev3dev systemd-udevd[194]: worker [2047] terminated by signal 9 (Killed)
+Jun 02 13:48:39 ev3dev systemd-udevd[194]: worker [2810] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 13:48:44 ev3dev systemd[1]: systemd-journal-flush.service: Start operation timed out. Terminating.
+Jun 02 13:48:49 ev3dev systemd-udevd[194]: worker [2811] terminated by signal 9 (Killed)
+Jun 02 07:55:25 ev3dev systemd-udevd[194]: worker [2047] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 07:59:19 ev3dev systemd-udevd[194]: seq 35627 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 13:51:27 ev3dev systemd-udevd[194]: seq 35775 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 13:51:53 ev3dev systemd-udevd[194]: seq 35773 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 07:59:32 ev3dev systemd-udevd[194]: seq 35625 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 13:52:12 ev3dev systemd[1]: systemd-journal-flush.service: Unit entered failed state.
+Jun 02 13:52:15 ev3dev systemd[1]: systemd-journal-flush.service: Failed with result 'timeout'.
+Jun 02 08:07:40 ev3dev systemd-udevd[194]: seq 35627 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 08:07:42 ev3dev systemd-udevd[194]: seq 35625 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 08:09:25 ev3dev systemd-udevd[194]: worker [2055] terminated by signal 9 (Killed)
+Jun 02 08:09:29 ev3dev systemd-udevd[194]: worker [2055] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 08:09:59 ev3dev systemd-udevd[194]: worker [2056] terminated by signal 9 (Killed)
+Jun 02 13:54:35 ev3dev systemd-udevd[194]: seq 35776 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 08:10:02 ev3dev systemd-udevd[194]: worker [2056] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 08:18:21 ev3dev systemd-udevd[194]: seq 35626 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 08:19:19 ev3dev systemd-udevd[194]: seq 35628 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 08:21:40 ev3dev systemd-udevd[194]: seq 35628 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 08:21:51 ev3dev systemd-udevd[194]: seq 35626 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 08:23:47 ev3dev systemd-udevd[194]: worker [2069] terminated by signal 9 (Killed)
+Jun 02 08:23:48 ev3dev systemd-udevd[194]: worker [2069] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 08:24:16 ev3dev systemd-udevd[194]: worker [2070] terminated by signal 9 (Killed)
+Jun 02 13:58:32 ev3dev systemd-udevd[194]: seq 35779 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 08:24:19 ev3dev systemd-udevd[194]: worker [2070] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 08:28:51 ev3dev systemd-udevd[194]: seq 35631 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 08:29:32 ev3dev systemd-udevd[194]: seq 35629 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 08:40:11 ev3dev systemd-udevd[194]: seq 35631 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 08:40:14 ev3dev systemd-udevd[194]: seq 35629 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 08:41:10 ev3dev systemd-udevd[194]: worker [2082] terminated by signal 9 (Killed)
+Jun 02 08:41:16 ev3dev systemd-udevd[194]: worker [2082] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 08:42:07 ev3dev systemd-udevd[194]: worker [2084] terminated by signal 9 (Killed)
+Jun 02 08:42:11 ev3dev systemd-udevd[194]: worker [2084] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 08:49:45 ev3dev systemd-udevd[194]: seq 35630 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 08:50:38 ev3dev systemd-udevd[194]: seq 35632 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 08:53:11 ev3dev systemd-udevd[194]: seq 35632 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 08:53:26 ev3dev systemd-udevd[194]: seq 35630 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 08:56:07 ev3dev systemd-udevd[194]: worker [2097] terminated by signal 9 (Killed)
+Jun 02 08:56:10 ev3dev systemd-udevd[194]: worker [2097] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 14:05:32 ev3dev systemd-udevd[194]: seq 35781 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 08:56:40 ev3dev systemd-udevd[194]: worker [2099] terminated by signal 9 (Killed)
+Jun 02 08:56:44 ev3dev systemd-udevd[194]: worker [2099] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 09:03:19 ev3dev systemd-udevd[194]: seq 35635 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 09:04:45 ev3dev systemd-udevd[194]: seq 35633 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 09:18:06 ev3dev systemd-udevd[194]: seq 35635 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 09:18:15 ev3dev systemd-udevd[194]: seq 35633 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 09:20:05 ev3dev systemd-udevd[194]: worker [2106] terminated by signal 9 (Killed)
+Jun 02 09:20:07 ev3dev systemd-udevd[194]: worker [2106] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 09:20:38 ev3dev systemd-udevd[194]: worker [2107] terminated by signal 9 (Killed)
+Jun 02 09:20:39 ev3dev systemd-udevd[194]: worker [2107] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 09:31:01 ev3dev systemd-udevd[194]: seq 35634 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 09:32:13 ev3dev systemd-udevd[194]: seq 35636 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 09:35:31 ev3dev systemd-udevd[194]: seq 35636 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 09:35:34 ev3dev systemd-udevd[194]: seq 35634 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 09:37:04 ev3dev systemd-udevd[194]: worker [2123] terminated by signal 9 (Killed)
+Jun 02 09:37:09 ev3dev systemd-udevd[194]: worker [2123] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 09:37:43 ev3dev systemd-udevd[194]: worker [2124] terminated by signal 9 (Killed)
+Jun 02 09:37:49 ev3dev systemd-udevd[194]: worker [2124] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 09:47:00 ev3dev systemd-udevd[194]: seq 35639 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 09:48:30 ev3dev systemd-udevd[194]: seq 35637 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 09:49:58 ev3dev systemd-udevd[194]: seq 35639 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 09:50:01 ev3dev systemd-udevd[194]: seq 35637 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 09:50:28 ev3dev systemd-udevd[194]: worker [2136] terminated by signal 9 (Killed)
+Jun 02 09:50:30 ev3dev systemd-udevd[194]: worker [2136] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 09:50:47 ev3dev systemd-udevd[194]: worker [2138] terminated by signal 9 (Killed)
+Jun 02 09:50:47 ev3dev systemd-udevd[194]: worker [2138] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 09:52:54 ev3dev systemd-udevd[194]: seq 35640 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 09:53:03 ev3dev systemd-udevd[194]: seq 35638 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 09:53:51 ev3dev systemd-udevd[194]: seq 35638 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 09:53:53 ev3dev systemd-udevd[194]: seq 35640 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 14:17:56 ev3dev systemd-udevd[194]: seq 35789 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 09:54:13 ev3dev systemd-udevd[194]: worker [2150] terminated by signal 9 (Killed)
+Jun 02 09:54:16 ev3dev systemd-udevd[194]: worker [2150] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 09:54:45 ev3dev systemd-udevd[194]: worker [2151] terminated by signal 9 (Killed)
+Jun 02 09:54:46 ev3dev systemd-udevd[194]: worker [2151] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 09:56:32 ev3dev systemd-udevd[194]: seq 35643 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 09:56:38 ev3dev systemd-udevd[194]: seq 35641 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 09:58:10 ev3dev systemd-udevd[194]: seq 35641 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 14:22:06 ev3dev systemd-udevd[194]: seq 35790 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 09:58:14 ev3dev systemd-udevd[194]: seq 35643 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 09:58:39 ev3dev systemd-udevd[194]: worker [2162] terminated by signal 9 (Killed)
+Jun 02 09:58:41 ev3dev systemd-udevd[194]: worker [2162] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 09:58:52 ev3dev systemd-udevd[194]: worker [2163] terminated by signal 9 (Killed)
+Jun 02 09:58:55 ev3dev systemd-udevd[194]: worker [2163] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 10:00:22 ev3dev systemd-udevd[194]: seq 35644 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 10:00:32 ev3dev systemd-udevd[194]: seq 35642 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 14:24:27 ev3dev systemd-udevd[194]: seq 35793 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:01:55 ev3dev systemd-udevd[194]: seq 35642 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 10:01:58 ev3dev systemd-udevd[194]: seq 35644 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 10:02:19 ev3dev systemd-udevd[194]: worker [2172] terminated by signal 9 (Killed)
+Jun 02 10:02:21 ev3dev systemd-udevd[194]: worker [2172] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 10:02:46 ev3dev systemd-udevd[194]: worker [2173] terminated by signal 9 (Killed)
+Jun 02 10:02:48 ev3dev systemd-udevd[194]: worker [2173] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 10:04:11 ev3dev systemd-udevd[194]: seq 35647 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 14:28:37 ev3dev systemd-udevd[194]: seq 35794 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:04:15 ev3dev systemd-udevd[194]: seq 35645 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:05:28 ev3dev systemd-udevd[194]: seq 35645 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 10:05:29 ev3dev systemd-udevd[194]: seq 35647 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 10:05:49 ev3dev systemd-udevd[194]: worker [2182] terminated by signal 9 (Killed)
+Jun 02 10:05:50 ev3dev systemd-udevd[194]: worker [2182] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 10:06:14 ev3dev systemd-udevd[194]: worker [2183] terminated by signal 9 (Killed)
+Jun 02 10:06:17 ev3dev systemd-udevd[194]: worker [2183] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 10:08:12 ev3dev systemd-udevd[194]: seq 35648 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 10:08:20 ev3dev systemd-udevd[194]: seq 35646 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:09:58 ev3dev systemd-udevd[194]: seq 35646 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 10:10:01 ev3dev systemd-udevd[194]: seq 35648 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 10:10:19 ev3dev systemd-udevd[194]: worker [2191] terminated by signal 9 (Killed)
+Jun 02 10:10:21 ev3dev systemd-udevd[194]: worker [2191] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 10:10:30 ev3dev systemd-udevd[194]: worker [2192] terminated by signal 9 (Killed)
+Jun 02 10:10:31 ev3dev systemd-udevd[194]: worker [2192] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 14:35:01 ev3dev systemd-udevd[194]: seq 35798 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:11:48 ev3dev systemd-udevd[194]: seq 35651 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 10:11:51 ev3dev systemd-udevd[194]: seq 35649 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:13:29 ev3dev systemd-udevd[194]: seq 35649 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 10:13:30 ev3dev systemd-udevd[194]: seq 35651 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 10:13:36 ev3dev systemd-udevd[194]: worker [2201] terminated by signal 9 (Killed)
+Jun 02 10:13:38 ev3dev systemd-udevd[194]: worker [2201] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 10:13:51 ev3dev systemd-udevd[194]: worker [2202] terminated by signal 9 (Killed)
+Jun 02 14:38:26 ev3dev systemd-udevd[194]: seq 35801 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:13:52 ev3dev systemd-udevd[194]: worker [2202] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 10:15:50 ev3dev systemd-udevd[194]: seq 35650 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:15:57 ev3dev systemd-udevd[194]: seq 35652 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 10:17:20 ev3dev systemd-udevd[194]: seq 35650 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 10:17:21 ev3dev systemd-udevd[194]: seq 35652 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 10:17:27 ev3dev systemd-udevd[194]: worker [2213] terminated by signal 9 (Killed)
+Jun 02 10:17:27 ev3dev systemd-udevd[194]: worker [2213] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 14:41:51 ev3dev systemd-udevd[194]: seq 35804 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 10:17:32 ev3dev systemd-udevd[194]: worker [2214] terminated by signal 9 (Killed)
+Jun 02 10:17:33 ev3dev systemd-udevd[194]: worker [2214] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 10:18:53 ev3dev systemd-udevd[194]: seq 35653 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:18:56 ev3dev systemd-udevd[194]: seq 35655 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 10:20:40 ev3dev systemd-udevd[194]: seq 35653 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 10:20:41 ev3dev systemd-udevd[194]: seq 35655 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 10:20:46 ev3dev systemd-udevd[194]: worker [2223] terminated by signal 9 (Killed)
+Jun 02 10:20:46 ev3dev systemd-udevd[194]: worker [2223] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 10:20:48 ev3dev systemd-udevd[194]: worker [2224] terminated by signal 9 (Killed)
+Jun 02 10:20:49 ev3dev systemd-udevd[194]: worker [2224] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 10:22:23 ev3dev systemd-udevd[194]: seq 35656 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 10:22:25 ev3dev systemd-udevd[194]: seq 35654 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:24:04 ev3dev systemd-udevd[194]: seq 35654 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 10:24:07 ev3dev systemd-udevd[194]: seq 35656 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 10:24:16 ev3dev systemd-udevd[194]: worker [2233] terminated by signal 9 (Killed)
+Jun 02 10:24:17 ev3dev systemd-udevd[194]: worker [2233] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 10:24:19 ev3dev systemd-udevd[194]: worker [2234] terminated by signal 9 (Killed)
+Jun 02 10:24:19 ev3dev systemd-udevd[194]: worker [2234] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 10:25:49 ev3dev systemd-udevd[194]: seq 35657 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:25:55 ev3dev systemd-udevd[194]: seq 35659 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 10:27:43 ev3dev systemd-udevd[194]: seq 35657 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 10:27:44 ev3dev systemd-udevd[194]: seq 35659 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 10:27:53 ev3dev systemd-udevd[194]: worker [2245] terminated by signal 9 (Killed)
+Jun 02 10:27:54 ev3dev systemd-udevd[194]: worker [2245] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 10:27:58 ev3dev systemd-udevd[194]: worker [2246] terminated by signal 9 (Killed)
+Jun 02 10:28:00 ev3dev systemd-udevd[194]: worker [2246] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 10:28:31 ev3dev brickman[564]: Manager.vala:203: Error calling StartServiceByName for net.connman: Timeout was reached
+Jun 02 10:29:31 ev3dev systemd-udevd[194]: seq 35660 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 10:29:36 ev3dev systemd-udevd[194]: seq 35658 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:31:04 ev3dev systemd-udevd[194]: seq 35658 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 10:31:05 ev3dev systemd-udevd[194]: seq 35660 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 14:55:23 ev3dev systemd-udevd[194]: seq 35810 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:31:10 ev3dev brickman[564]: Manager.vala:203: Error calling StartServiceByName for net.connman: Timeout was reached
+Jun 02 10:31:11 ev3dev systemd-udevd[194]: worker [2257] terminated by signal 9 (Killed)
+Jun 02 10:31:12 ev3dev systemd-udevd[194]: worker [2257] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 10:31:16 ev3dev systemd-udevd[194]: worker [2259] terminated by signal 9 (Killed)
+Jun 02 10:31:16 ev3dev systemd-udevd[194]: worker [2259] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 10:31:35 ev3dev brickman[564]: Manager.vala:203: Error calling StartServiceByName for net.connman: Timeout was reached
+Jun 02 10:32:48 ev3dev systemd-udevd[194]: seq 35663 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 10:32:54 ev3dev systemd-udevd[194]: seq 35661 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:34:28 ev3dev systemd-udevd[194]: seq 35661 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 10:34:29 ev3dev systemd-udevd[194]: seq 35663 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 10:34:38 ev3dev systemd-udevd[194]: worker [2268] terminated by signal 9 (Killed)
+Jun 02 10:34:40 ev3dev systemd-udevd[194]: worker [2268] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 10:34:48 ev3dev systemd-udevd[194]: worker [2269] terminated by signal 9 (Killed)
+Jun 02 10:34:49 ev3dev systemd-udevd[194]: worker [2269] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 10:36:00 ev3dev systemd-udevd[194]: seq 35662 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:36:04 ev3dev systemd-udevd[194]: seq 35664 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 10:37:40 ev3dev systemd-udevd[194]: seq 35662 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 10:37:41 ev3dev systemd-udevd[194]: seq 35664 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 10:37:47 ev3dev systemd-udevd[194]: worker [2283] terminated by signal 9 (Killed)
+Jun 02 10:37:47 ev3dev systemd-udevd[194]: worker [2283] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 10:37:50 ev3dev systemd-udevd[194]: worker [2284] terminated by signal 9 (Killed)
+Jun 02 10:37:50 ev3dev systemd-udevd[194]: worker [2284] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 10:39:32 ev3dev systemd-udevd[194]: seq 35667 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 10:39:36 ev3dev systemd-udevd[194]: seq 35665 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:40:53 ev3dev systemd-udevd[194]: seq 35665 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 10:40:53 ev3dev systemd-udevd[194]: seq 35667 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 10:40:58 ev3dev systemd-udevd[194]: worker [2295] terminated by signal 9 (Killed)
+Jun 02 10:40:58 ev3dev systemd-udevd[194]: worker [2295] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 10:40:59 ev3dev systemd-udevd[194]: worker [2296] terminated by signal 9 (Killed)
+Jun 02 10:40:59 ev3dev systemd-udevd[194]: worker [2296] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 10:42:11 ev3dev systemd-udevd[194]: seq 35668 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 15:09:19 ev3dev systemd-udevd[194]: seq 35818 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:42:12 ev3dev systemd-udevd[194]: seq 35666 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:43:43 ev3dev brickman[564]: Manager.vala:203: Timeout was reached
+Jun 02 10:44:25 ev3dev systemd-udevd[194]: seq 35666 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 10:44:26 ev3dev systemd-udevd[194]: seq 35668 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 10:44:32 ev3dev systemd-udevd[194]: worker [2300] terminated by signal 9 (Killed)
+Jun 02 10:44:33 ev3dev systemd-udevd[194]: worker [2300] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 10:44:36 ev3dev systemd-udevd[194]: worker [2301] terminated by signal 9 (Killed)
+Jun 02 10:44:36 ev3dev systemd-udevd[194]: worker [2301] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 10:45:53 ev3dev systemd-udevd[194]: seq 35669 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 15:14:21 ev3dev systemd-udevd[194]: seq 35821 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 10:45:54 ev3dev systemd-udevd[194]: seq 35671 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 10:47:39 ev3dev systemd-udevd[194]: seq 35669 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 10:47:39 ev3dev systemd-udevd[194]: seq 35671 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 10:47:46 ev3dev systemd-udevd[194]: worker [2312] terminated by signal 9 (Killed)
+Jun 02 10:47:46 ev3dev systemd-udevd[194]: worker [2312] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 15:16:37 ev3dev systemd-udevd[194]: seq 35824 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 10:47:48 ev3dev systemd-udevd[194]: worker [2313] terminated by signal 9 (Killed)
+Jun 02 10:47:48 ev3dev systemd-udevd[194]: worker [2313] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 10:49:29 ev3dev systemd-udevd[194]: seq 35672 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 10:49:32 ev3dev systemd-udevd[194]: seq 35670 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:50:51 ev3dev systemd-udevd[194]: seq 35670 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 10:50:52 ev3dev systemd-udevd[194]: seq 35672 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 10:50:57 ev3dev systemd-udevd[194]: worker [2323] terminated by signal 9 (Killed)
+Jun 02 10:50:57 ev3dev systemd-udevd[194]: worker [2323] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 10:50:59 ev3dev systemd-udevd[194]: worker [2324] terminated by signal 9 (Killed)
+Jun 02 10:50:59 ev3dev systemd-udevd[194]: worker [2324] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 10:52:52 ev3dev systemd-udevd[194]: seq 35675 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 10:52:53 ev3dev systemd-udevd[194]: seq 35673 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:54:05 ev3dev systemd-udevd[194]: seq 35673 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 10:54:06 ev3dev systemd-udevd[194]: seq 35675 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 10:54:10 ev3dev systemd-udevd[194]: worker [2334] terminated by signal 9 (Killed)
+Jun 02 15:23:29 ev3dev systemd-udevd[194]: seq 35826 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:54:10 ev3dev systemd-udevd[194]: worker [2334] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 10:54:12 ev3dev systemd-udevd[194]: worker [2335] terminated by signal 9 (Killed)
+Jun 02 10:54:12 ev3dev systemd-udevd[194]: worker [2335] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 10:55:34 ev3dev systemd-udevd[194]: seq 35674 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 10:55:34 ev3dev systemd-udevd[194]: seq 35676 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 10:57:35 ev3dev systemd-udevd[194]: seq 35674 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 10:57:35 ev3dev systemd-udevd[194]: seq 35676 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 10:57:43 ev3dev systemd-udevd[194]: worker [2346] terminated by signal 9 (Killed)
+Jun 02 10:57:43 ev3dev systemd-udevd[194]: worker [2346] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 10:57:45 ev3dev systemd-udevd[194]: worker [2347] terminated by signal 9 (Killed)
+Jun 02 10:57:45 ev3dev systemd-udevd[194]: worker [2347] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 10:59:33 ev3dev systemd-udevd[194]: seq 35679 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 10:59:36 ev3dev systemd-udevd[194]: seq 35677 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 11:01:02 ev3dev systemd-udevd[194]: seq 35677 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 11:01:02 ev3dev systemd-udevd[194]: seq 35679 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 15:30:39 ev3dev systemd-udevd[194]: seq 35830 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 11:01:08 ev3dev systemd-udevd[194]: worker [2359] terminated by signal 9 (Killed)
+Jun 02 11:01:08 ev3dev systemd-udevd[194]: worker [2359] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 11:01:11 ev3dev systemd-udevd[194]: worker [2360] terminated by signal 9 (Killed)
+Jun 02 11:01:11 ev3dev systemd-udevd[194]: worker [2360] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 11:02:38 ev3dev systemd-udevd[194]: seq 35678 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 11:02:42 ev3dev systemd-udevd[194]: seq 35680 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 11:04:34 ev3dev systemd-udevd[194]: seq 35678 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 15:33:44 ev3dev systemd-udevd[194]: seq 35835 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 11:04:35 ev3dev systemd-udevd[194]: seq 35680 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 11:04:40 ev3dev systemd-udevd[194]: worker [2370] terminated by signal 9 (Killed)
+Jun 02 11:04:40 ev3dev systemd-udevd[194]: worker [2370] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 11:04:44 ev3dev systemd-udevd[194]: worker [2371] terminated by signal 9 (Killed)
+Jun 02 11:04:45 ev3dev systemd-udevd[194]: worker [2371] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 11:06:31 ev3dev systemd-udevd[194]: seq 35681 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 11:06:33 ev3dev systemd-udevd[194]: seq 35683 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 15:37:20 ev3dev systemd-udevd[194]: seq 35834 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 11:07:45 ev3dev systemd-udevd[194]: seq 35681 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 11:07:46 ev3dev systemd-udevd[194]: seq 35683 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 11:07:51 ev3dev systemd-udevd[194]: worker [2377] terminated by signal 9 (Killed)
+Jun 02 11:07:51 ev3dev systemd-udevd[194]: worker [2377] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 11:07:55 ev3dev systemd-udevd[194]: worker [2378] terminated by signal 9 (Killed)
+Jun 02 11:07:55 ev3dev systemd-udevd[194]: worker [2378] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 11:09:29 ev3dev systemd-udevd[194]: seq 35684 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 15:40:37 ev3dev systemd-udevd[194]: seq 35839 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 11:09:34 ev3dev systemd-udevd[194]: seq 35682 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 11:11:14 ev3dev systemd-udevd[194]: seq 35682 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 11:11:14 ev3dev systemd-udevd[194]: seq 35684 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 11:11:20 ev3dev systemd-udevd[194]: worker [2380] terminated by signal 9 (Killed)
+Jun 02 11:11:20 ev3dev systemd-udevd[194]: worker [2380] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 11:11:24 ev3dev systemd-udevd[194]: worker [2381] terminated by signal 9 (Killed)
+Jun 02 11:11:24 ev3dev systemd-udevd[194]: worker [2381] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 15:44:04 ev3dev systemd-udevd[194]: seq 35838 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 15:45:46 ev3dev systemd[1]: systemd-journald.service: Watchdog timeout (limit 3min)!
+Jun 02 15:45:48 ev3dev systemd[1]: systemd-journald.service: Killing process 2809 (systemd-journal) with signal SIGABRT.
+Jun 02 15:45:48 ev3dev systemd[1]: systemd-journald.service: Main process exited, code=killed, status=6/ABRT
+Jun 02 15:45:48 ev3dev systemd-udevd[194]: seq 35840 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 15:45:48 ev3dev systemd[1]: systemd-journald.service: Unit entered failed state.
+Jun 02 15:45:49 ev3dev systemd[1]: systemd-journald.service: Failed with result 'watchdog'.
+Jun 02 15:45:50 ev3dev systemd-udevd[194]: worker [3142] terminated by signal 9 (Killed)
+Jun 02 15:45:51 ev3dev systemd[1]: systemd-journald.service: Service has no hold-off time, scheduling restart.
+Jun 02 15:45:51 ev3dev systemd[1]: Stopped Journal Service.
+Jun 02 15:45:52 ev3dev systemd[1]: Starting Journal Service...
+Jun 02 15:45:52 ev3dev systemd-udevd[194]: worker [3142] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 15:45:53 ev3dev systemd-journald[3151]: Journal started
+Jun 02 15:45:54 ev3dev systemd-journald[3151]: System journal (/var/log/journal/0a8ffb6d314b403ab9cb5dc4ba3f599d) is 416.0M, max 2.9G, 2.5G free.
+Jun 02 15:45:55 ev3dev systemd-udevd[194]: worker [3143] terminated by signal 9 (Killed)
+Jun 02 11:13:07 ev3dev systemd-udevd[194]: seq 35685 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 15:46:12 ev3dev systemd[1]: Started Journal Service.
+Jun 02 11:14:25 ev3dev systemd-udevd[194]: seq 35685 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 15:48:27 ev3dev systemd-udevd[194]: seq 35841 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 11:14:26 ev3dev systemd-udevd[194]: seq 35687 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 11:14:30 ev3dev systemd-udevd[194]: worker [2385] terminated by signal 9 (Killed)
+Jun 02 11:14:31 ev3dev systemd-udevd[194]: worker [2385] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 11:14:34 ev3dev systemd-udevd[194]: worker [2386] terminated by signal 9 (Killed)
+Jun 02 11:14:34 ev3dev systemd-udevd[194]: worker [2386] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 11:16:09 ev3dev systemd-udevd[194]: seq 35686 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 11:16:10 ev3dev systemd-udevd[194]: seq 35688 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 15:51:23 ev3dev systemd-udevd[194]: seq 35844 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 11:18:05 ev3dev systemd-udevd[194]: seq 35686 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 11:18:05 ev3dev systemd-udevd[194]: seq 35688 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 11:18:12 ev3dev systemd-udevd[194]: worker [2392] terminated by signal 9 (Killed)
+Jun 02 11:18:12 ev3dev systemd-udevd[194]: worker [2392] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 11:18:17 ev3dev systemd-udevd[194]: worker [2393] terminated by signal 9 (Killed)
+Jun 02 11:18:17 ev3dev systemd-udevd[194]: worker [2393] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 11:19:46 ev3dev systemd-udevd[194]: seq 35689 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 11:19:48 ev3dev systemd-udevd[194]: seq 35691 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 11:21:20 ev3dev systemd-udevd[194]: seq 35689 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 11:21:22 ev3dev systemd-udevd[194]: seq 35691 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 11:21:27 ev3dev systemd-udevd[194]: worker [2396] terminated by signal 9 (Killed)
+Jun 02 11:21:27 ev3dev systemd-udevd[194]: worker [2396] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 11:21:31 ev3dev systemd-udevd[194]: worker [2397] terminated by signal 9 (Killed)
+Jun 02 11:21:32 ev3dev systemd-udevd[194]: worker [2397] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 11:23:15 ev3dev systemd-udevd[194]: seq 35692 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 15:58:23 ev3dev systemd-udevd[194]: seq 35846 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 11:23:19 ev3dev systemd-udevd[194]: seq 35690 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 11:24:35 ev3dev systemd-udevd[194]: seq 35690 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 11:24:36 ev3dev systemd-udevd[194]: seq 35692 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 11:24:43 ev3dev systemd-udevd[194]: worker [2404] terminated by signal 9 (Killed)
+Jun 02 11:24:43 ev3dev systemd-udevd[194]: worker [2404] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 11:24:46 ev3dev systemd-udevd[194]: worker [2405] terminated by signal 9 (Killed)
+Jun 02 11:24:46 ev3dev systemd-udevd[194]: worker [2405] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 16:01:37 ev3dev systemd-udevd[194]: seq 35851 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 16:03:22 ev3dev systemd[1]: systemd-journald.service: Watchdog timeout (limit 3min)!
+Jun 02 16:03:24 ev3dev systemd[1]: systemd-journald.service: Killing process 3151 (systemd-journal) with signal SIGABRT.
+Jun 02 16:03:25 ev3dev systemd[1]: systemd-journald.service: Main process exited, code=killed, status=6/ABRT
+Jun 02 16:03:25 ev3dev systemd[1]: systemd-journald.service: Unit entered failed state.
+Jun 02 16:03:26 ev3dev systemd[1]: systemd-journald.service: Failed with result 'watchdog'.
+Jun 02 16:03:27 ev3dev systemd[1]: systemd-journald.service: Service has no hold-off time, scheduling restart.
+Jun 02 16:03:27 ev3dev systemd[1]: Stopped Journal Service.
+Jun 02 16:03:28 ev3dev systemd-udevd[194]: seq 35851 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 16:03:29 ev3dev systemd[1]: Starting Journal Service...
+Jun 02 16:03:30 ev3dev systemd-udevd[194]: worker [3187] terminated by signal 9 (Killed)
+Jun 02 16:03:31 ev3dev systemd-journald[3199]: Journal started
+Jun 02 16:03:32 ev3dev systemd-journald[3199]: System journal (/var/log/journal/0a8ffb6d314b403ab9cb5dc4ba3f599d) is 416.0M, max 2.9G, 2.5G free.
+Jun 02 11:26:22 ev3dev systemd-udevd[194]: seq 35693 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 16:03:37 ev3dev systemd[1]: Started Journal Service.
+Jun 02 11:28:09 ev3dev systemd-udevd[194]: seq 35693 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 11:28:11 ev3dev systemd-udevd[194]: seq 35695 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 11:28:15 ev3dev systemd-udevd[194]: worker [2416] terminated by signal 9 (Killed)
+Jun 02 16:06:52 ev3dev systemd-udevd[194]: seq 35852 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 16:07:10 ev3dev systemd-udevd[194]: seq 35850 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 11:28:15 ev3dev systemd-udevd[194]: worker [2416] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 11:28:21 ev3dev systemd-udevd[194]: worker [2417] terminated by signal 9 (Killed)
+Jun 02 11:28:23 ev3dev systemd-udevd[194]: worker [2417] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 11:29:46 ev3dev systemd-udevd[194]: seq 35694 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 11:29:47 ev3dev systemd-udevd[194]: seq 35696 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 11:31:28 ev3dev systemd-udevd[194]: seq 35694 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 16:09:59 ev3dev systemd-udevd[194]: seq 35855 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 11:31:28 ev3dev systemd-udevd[194]: seq 35696 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 11:31:35 ev3dev systemd-udevd[194]: worker [2428] terminated by signal 9 (Killed)
+Jun 02 11:31:35 ev3dev systemd-udevd[194]: worker [2428] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 11:31:38 ev3dev systemd-udevd[194]: worker [2429] terminated by signal 9 (Killed)
+Jun 02 11:31:40 ev3dev systemd-udevd[194]: worker [2429] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 11:33:08 ev3dev systemd-udevd[194]: seq 35697 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 11:33:14 ev3dev systemd-udevd[194]: seq 35699 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 16:13:30 ev3dev systemd-udevd[194]: seq 35854 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 16:14:19 ev3dev systemd-udevd[194]: seq 35854 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 11:34:53 ev3dev systemd-udevd[194]: seq 35697 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 11:34:54 ev3dev systemd-udevd[194]: seq 35699 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 11:35:01 ev3dev systemd-udevd[194]: worker [2438] terminated by signal 9 (Killed)
+Jun 02 11:35:01 ev3dev systemd-udevd[194]: worker [2438] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 11:35:12 ev3dev systemd-udevd[194]: worker [2439] terminated by signal 9 (Killed)
+Jun 02 11:35:13 ev3dev systemd-udevd[194]: worker [2439] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 16:16:53 ev3dev systemd-udevd[194]: seq 35857 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 16:18:45 ev3dev systemd-journald[3245]: Journal started
+Jun 02 16:18:47 ev3dev systemd-journald[3245]: System journal (/var/log/journal/0a8ffb6d314b403ab9cb5dc4ba3f599d) is 424.0M, max 2.9G, 2.5G free.
+Jun 02 16:18:48 ev3dev systemd[1]: systemd-journald.service: Killing process 3199 (systemd-journal) with signal SIGABRT.
+Jun 02 16:18:48 ev3dev systemd-udevd[194]: seq 35857 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 16:18:48 ev3dev systemd[1]: systemd-journald.service: Main process exited, code=killed, status=6/ABRT
+Jun 02 16:18:48 ev3dev systemd[1]: systemd-journald.service: Unit entered failed state.
+Jun 02 16:18:48 ev3dev systemd[1]: systemd-journald.service: Failed with result 'watchdog'.
+Jun 02 16:18:48 ev3dev systemd[1]: systemd-journald.service: Service has no hold-off time, scheduling restart.
+Jun 02 16:18:48 ev3dev systemd[1]: Stopped Journal Service.
+Jun 02 16:18:48 ev3dev systemd[1]: Starting Journal Service...
+Jun 02 16:18:48 ev3dev systemd-udevd[194]: seq 35859 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 16:18:48 ev3dev systemd-udevd[194]: worker [3241] terminated by signal 9 (Killed)
+Jun 02 16:18:48 ev3dev systemd-udevd[194]: worker [3241] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 11:36:37 ev3dev systemd-udevd[194]: seq 35698 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 16:18:49 ev3dev systemd[1]: Started Journal Service.
+Jun 02 11:36:47 ev3dev systemd-udevd[194]: seq 35700 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 11:38:28 ev3dev systemd-udevd[194]: seq 35698 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 11:38:29 ev3dev systemd-udevd[194]: seq 35700 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 11:38:35 ev3dev systemd-udevd[194]: worker [2442] terminated by signal 9 (Killed)
+Jun 02 11:38:37 ev3dev systemd-udevd[194]: worker [2442] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 11:38:39 ev3dev systemd-udevd[194]: worker [2443] terminated by signal 9 (Killed)
+Jun 02 11:38:39 ev3dev systemd-udevd[194]: worker [2443] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 11:39:58 ev3dev systemd-udevd[194]: seq 35703 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 11:40:07 ev3dev systemd-udevd[194]: seq 35701 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 11:41:38 ev3dev systemd-udevd[194]: seq 35701 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 11:41:39 ev3dev systemd-udevd[194]: seq 35703 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 11:41:46 ev3dev systemd-udevd[194]: worker [2449] terminated by signal 9 (Killed)
+Jun 02 11:41:46 ev3dev systemd-udevd[194]: worker [2449] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 11:41:49 ev3dev systemd-udevd[194]: worker [2450] terminated by signal 9 (Killed)
+Jun 02 11:41:49 ev3dev systemd-udevd[194]: worker [2450] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 11:43:37 ev3dev systemd-udevd[194]: seq 35704 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 11:43:41 ev3dev systemd-udevd[194]: seq 35702 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 11:44:52 ev3dev systemd-udevd[194]: seq 35702 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 16:27:46 ev3dev systemd-udevd[194]: seq 35864 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 16:29:56 ev3dev systemd-journald[3279]: Journal started
+Jun 02 16:29:57 ev3dev systemd-journald[3279]: System journal (/var/log/journal/0a8ffb6d314b403ab9cb5dc4ba3f599d) is 432.0M, max 2.9G, 2.4G free.
+Jun 02 16:29:58 ev3dev systemd[1]: systemd-journald.service: Killing process 3245 (systemd-journal) with signal SIGABRT.
+Jun 02 16:29:59 ev3dev systemd-udevd[194]: seq 35862 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 16:29:59 ev3dev systemd[1]: systemd-journald.service: Main process exited, code=killed, status=6/ABRT
+Jun 02 16:29:59 ev3dev systemd-udevd[194]: seq 35864 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 16:29:59 ev3dev systemd[1]: systemd-journald.service: Unit entered failed state.
+Jun 02 16:29:59 ev3dev systemd[1]: systemd-journald.service: Failed with result 'watchdog'.
+Jun 02 16:29:59 ev3dev systemd-udevd[194]: worker [3261] terminated by signal 9 (Killed)
+Jun 02 16:29:59 ev3dev systemd[1]: systemd-journald.service: Service has no hold-off time, scheduling restart.
+Jun 02 16:29:59 ev3dev systemd[1]: Stopped Journal Service.
+Jun 02 16:29:59 ev3dev systemd[1]: Starting Journal Service...
+Jun 02 16:29:59 ev3dev systemd-udevd[194]: worker [3261] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 11:44:53 ev3dev systemd-udevd[194]: seq 35704 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 16:30:01 ev3dev systemd[1]: Started Journal Service.
+Jun 02 11:44:59 ev3dev systemd-udevd[194]: worker [2457] terminated by signal 9 (Killed)
+Jun 02 11:44:59 ev3dev systemd-udevd[194]: worker [2457] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 16:32:21 ev3dev systemd-udevd[194]: seq 35867 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 11:45:01 ev3dev systemd-udevd[194]: worker [2458] terminated by signal 9 (Killed)
+Jun 02 11:45:01 ev3dev systemd-udevd[194]: worker [2458] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 11:46:46 ev3dev systemd-udevd[194]: seq 35707 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 11:46:52 ev3dev systemd-udevd[194]: seq 35705 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 11:48:09 ev3dev systemd-udevd[194]: seq 35705 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 11:48:11 ev3dev systemd-udevd[194]: seq 35707 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 11:48:17 ev3dev systemd-udevd[194]: worker [2468] terminated by signal 9 (Killed)
+Jun 02 11:48:18 ev3dev systemd-udevd[194]: worker [2468] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 11:48:21 ev3dev systemd-udevd[194]: worker [2469] terminated by signal 9 (Killed)
+Jun 02 11:48:21 ev3dev systemd-udevd[194]: worker [2469] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 11:49:46 ev3dev systemd-udevd[194]: seq 35706 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 11:49:50 ev3dev systemd-udevd[194]: seq 35708 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 11:51:31 ev3dev systemd-udevd[194]: seq 35706 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 11:51:32 ev3dev systemd-udevd[194]: seq 35708 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 11:51:42 ev3dev systemd-udevd[194]: worker [2479] terminated by signal 9 (Killed)
+Jun 02 11:51:43 ev3dev systemd-udevd[194]: worker [2479] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 16:39:44 ev3dev systemd-udevd[194]: seq 35869 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 11:51:47 ev3dev systemd-udevd[194]: worker [2480] terminated by signal 9 (Killed)
+Jun 02 11:51:47 ev3dev systemd-udevd[194]: worker [2480] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 11:53:30 ev3dev systemd-udevd[194]: seq 35711 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 11:53:30 ev3dev systemd-udevd[194]: seq 35709 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 11:54:50 ev3dev systemd-udevd[194]: seq 35709 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 11:54:51 ev3dev systemd-udevd[194]: seq 35711 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 16:42:37 ev3dev systemd-udevd[194]: seq 35872 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 11:54:56 ev3dev systemd-udevd[194]: worker [2491] terminated by signal 9 (Killed)
+Jun 02 11:54:57 ev3dev systemd-udevd[194]: worker [2491] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 11:55:09 ev3dev systemd-udevd[194]: worker [2492] terminated by signal 9 (Killed)
+Jun 02 11:55:09 ev3dev systemd-udevd[194]: worker [2492] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 11:56:40 ev3dev systemd-udevd[194]: seq 35710 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 11:56:44 ev3dev systemd-udevd[194]: seq 35712 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 11:58:09 ev3dev systemd-udevd[194]: seq 35710 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 16:45:21 ev3dev systemd-udevd[194]: seq 35875 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 11:58:10 ev3dev systemd-udevd[194]: seq 35712 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 11:58:16 ev3dev systemd-udevd[194]: worker [2502] terminated by signal 9 (Killed)
+Jun 02 11:58:16 ev3dev systemd-udevd[194]: worker [2502] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 11:58:22 ev3dev systemd-udevd[194]: worker [2503] terminated by signal 9 (Killed)
+Jun 02 11:58:24 ev3dev systemd-udevd[194]: worker [2503] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 11:59:43 ev3dev systemd-udevd[194]: seq 35713 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 11:59:47 ev3dev systemd-udevd[194]: seq 35715 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 12:01:41 ev3dev systemd-udevd[194]: seq 35713 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 12:01:43 ev3dev systemd-udevd[194]: seq 35715 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 12:01:51 ev3dev systemd-udevd[194]: worker [2516] terminated by signal 9 (Killed)
+Jun 02 12:01:51 ev3dev systemd-udevd[194]: worker [2516] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 12:01:53 ev3dev systemd-udevd[194]: worker [2517] terminated by signal 9 (Killed)
+Jun 02 12:01:54 ev3dev systemd-udevd[194]: worker [2517] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 12:03:58 ev3dev systemd-udevd[194]: seq 35716 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 12:04:01 ev3dev systemd-udevd[194]: seq 35714 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 16:52:32 ev3dev systemd-udevd[194]: seq 35879 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 16:55:20 ev3dev systemd-journald[3349]: Journal started
+Jun 02 16:55:21 ev3dev systemd-journald[3349]: System journal (/var/log/journal/0a8ffb6d314b403ab9cb5dc4ba3f599d) is 440.0M, max 2.9G, 2.4G free.
+Jun 02 16:55:22 ev3dev systemd[1]: systemd-journald.service: Killing process 3279 (systemd-journal) with signal SIGABRT.
+Jun 02 16:55:22 ev3dev systemd-udevd[194]: seq 35877 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 16:55:22 ev3dev systemd[1]: systemd-journald.service: Main process exited, code=killed, status=6/ABRT
+Jun 02 16:55:22 ev3dev systemd[1]: systemd-journald.service: Unit entered failed state.
+Jun 02 16:55:22 ev3dev systemd[1]: systemd-journald.service: Failed with result 'watchdog'.
+Jun 02 16:55:22 ev3dev systemd-udevd[194]: seq 35879 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 16:55:22 ev3dev systemd[1]: systemd-journald.service: Service has no hold-off time, scheduling restart.
+Jun 02 16:55:23 ev3dev systemd[1]: Stopped Journal Service.
+Jun 02 16:55:23 ev3dev systemd[1]: Starting Journal Service...
+Jun 02 16:55:23 ev3dev systemd-udevd[194]: worker [3336] terminated by signal 9 (Killed)
+Jun 02 16:55:23 ev3dev systemd-udevd[194]: worker [3336] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 16:55:23 ev3dev systemd-udevd[194]: worker [3337] terminated by signal 9 (Killed)
+Jun 02 12:04:55 ev3dev systemd-udevd[194]: seq 35714 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 16:55:25 ev3dev systemd[1]: Started Journal Service.
+Jun 02 12:04:56 ev3dev systemd-udevd[194]: seq 35716 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 16:58:01 ev3dev systemd-udevd[194]: seq 35878 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 16:58:22 ev3dev systemd-udevd[194]: seq 35878 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 12:05:01 ev3dev systemd-udevd[194]: worker [2526] terminated by signal 9 (Killed)
+Jun 02 12:05:01 ev3dev systemd-udevd[194]: worker [2526] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 12:05:05 ev3dev systemd-udevd[194]: worker [2527] terminated by signal 9 (Killed)
+Jun 02 12:05:07 ev3dev systemd-udevd[194]: worker [2527] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 12:06:44 ev3dev systemd-udevd[194]: seq 35717 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 12:06:53 ev3dev systemd-udevd[194]: seq 35719 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 17:01:20 ev3dev systemd-udevd[194]: seq 35883 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 17:01:52 ev3dev systemd-udevd[194]: seq 35881 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 17:05:59 ev3dev systemd-journald[3387]: Journal started
+Jun 02 17:06:00 ev3dev systemd-journald[3387]: System journal (/var/log/journal/0a8ffb6d314b403ab9cb5dc4ba3f599d) is 448.0M, max 2.9G, 2.4G free.
+Jun 02 17:06:02 ev3dev systemd[1]: systemd-journald.service: Watchdog timeout (limit 3min)!
+Jun 02 17:06:02 ev3dev systemd[1]: systemd-journald.service: Killing process 3349 (systemd-journal) with signal SIGABRT.
+Jun 02 17:06:02 ev3dev systemd-udevd[194]: worker [3370] terminated by signal 9 (Killed)
+Jun 02 17:06:02 ev3dev systemd-udevd[194]: worker [3370] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 17:06:02 ev3dev systemd[1]: systemd-journald.service: Main process exited, code=killed, status=6/ABRT
+Jun 02 17:06:02 ev3dev systemd[1]: systemd-journald.service: Unit entered failed state.
+Jun 02 17:06:02 ev3dev systemd[1]: systemd-journald.service: Failed with result 'watchdog'.
+Jun 02 17:06:02 ev3dev systemd-udevd[194]: worker [3371] terminated by signal 9 (Killed)
+Jun 02 17:06:02 ev3dev systemd[1]: systemd-journald.service: Service has no hold-off time, scheduling restart.
+Jun 02 17:06:03 ev3dev systemd[1]: Stopped Journal Service.
+Jun 02 17:06:03 ev3dev systemd[1]: Starting Journal Service...
+Jun 02 17:06:03 ev3dev systemd-udevd[194]: worker [3371] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 17:06:03 ev3dev systemd-udevd[194]: seq 35884 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 17:06:03 ev3dev systemd-udevd[194]: seq 35882 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 17:06:03 ev3dev systemd[1]: systemd-journald.service: Start operation timed out. Terminating.
+Jun 02 17:06:03 ev3dev systemd-udevd[194]: seq 35882 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 17:06:03 ev3dev systemd-udevd[194]: seq 35884 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 17:06:03 ev3dev systemd[1]: Failed to start Journal Service.
+Jun 02 17:06:03 ev3dev systemd[1]: systemd-journald.service: Unit entered failed state.
+Jun 02 17:06:03 ev3dev systemd[1]: systemd-journald.service: Failed with result 'timeout'.
+Jun 02 17:06:03 ev3dev systemd[1]: systemd-journald.service: Service has no hold-off time, scheduling restart.
+Jun 02 17:06:03 ev3dev systemd[1]: Stopped Journal Service.
+Jun 02 17:06:03 ev3dev systemd[1]: Starting Journal Service...
+Jun 02 17:06:03 ev3dev systemd-udevd[194]: worker [3383] terminated by signal 9 (Killed)
+Jun 02 12:08:12 ev3dev systemd-udevd[194]: seq 35719 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 17:06:06 ev3dev systemd[1]: Started Journal Service.
+Jun 02 12:08:19 ev3dev systemd-udevd[194]: worker [2530] terminated by signal 9 (Killed)
+Jun 02 12:08:19 ev3dev systemd-udevd[194]: worker [2530] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 12:08:45 ev3dev systemd-udevd[194]: worker [2531] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 17:09:05 ev3dev systemd-udevd[194]: seq 35887 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 17:09:35 ev3dev systemd-udevd[194]: seq 35885 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 12:11:56 ev3dev systemd-udevd[194]: seq 35720 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 12:14:10 ev3dev systemd-udevd[194]: seq 35723 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 12:15:49 ev3dev systemd-udevd[194]: seq 35723 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 12:16:38 ev3dev systemd-udevd[194]: worker [2543] terminated by signal 9 (Killed)
+Jun 02 12:17:44 ev3dev systemd-udevd[194]: seq 35724 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 12:19:40 ev3dev systemd-udevd[194]: seq 35724 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 12:20:00 ev3dev systemd-udevd[194]: worker [2550] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 12:20:25 ev3dev systemd-udevd[194]: worker [2551] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 12:21:36 ev3dev systemd-udevd[194]: seq 35725 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 12:23:38 ev3dev systemd-udevd[194]: seq 35727 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 12:23:45 ev3dev systemd-udevd[194]: worker [2567] terminated by signal 9 (Killed)
+Jun 02 12:24:14 ev3dev systemd-udevd[194]: worker [2568] terminated by signal 9 (Killed)
+Jun 02 12:24:26 ev3dev systemd-udevd[194]: worker [2568] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 12:27:27 ev3dev systemd-udevd[194]: seq 35728 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 17:15:33 ev3dev systemd-udevd[194]: seq 35891 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 12:27:39 ev3dev systemd-udevd[194]: worker [2578] terminated by signal 9 (Killed)
+Jun 02 12:28:19 ev3dev systemd-udevd[194]: worker [2579] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 12:29:24 ev3dev systemd-udevd[194]: seq 35731 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 12:31:22 ev3dev systemd-udevd[194]: seq 35731 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 12:31:38 ev3dev systemd-udevd[194]: worker [2587] terminated by signal 9 (Killed)
+Jun 02 12:32:02 ev3dev systemd-udevd[194]: worker [2588] terminated by signal 9 (Killed)
+Jun 02 12:32:10 ev3dev systemd-udevd[194]: worker [2588] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 12:35:14 ev3dev systemd-udevd[194]: seq 35730 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 12:35:17 ev3dev systemd-udevd[194]: seq 35732 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 12:35:25 ev3dev systemd-udevd[194]: worker [2594] terminated by signal 9 (Killed)
+Jun 02 12:35:32 ev3dev systemd-udevd[194]: worker [2594] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 12:35:41 ev3dev systemd-udevd[194]: worker [2595] terminated by signal 9 (Killed)
+Jun 02 12:35:46 ev3dev systemd-udevd[194]: worker [2595] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 12:37:16 ev3dev systemd-udevd[194]: seq 35733 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 12:38:58 ev3dev systemd-udevd[194]: seq 35735 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 17:23:00 ev3dev systemd-udevd[194]: seq 35895 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 12:39:07 ev3dev systemd-udevd[194]: worker [2602] terminated by signal 9 (Killed)
+Jun 02 12:40:52 ev3dev systemd-udevd[194]: seq 35736 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 12:42:40 ev3dev systemd-udevd[194]: seq 35736 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 12:42:54 ev3dev systemd-udevd[194]: worker [2620] terminated by signal 9 (Killed)
+Jun 02 12:43:08 ev3dev systemd-udevd[194]: worker [2621] terminated by signal 9 (Killed)
+Jun 02 12:43:14 ev3dev systemd-udevd[194]: worker [2621] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 12:44:46 ev3dev systemd-udevd[194]: seq 35737 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 17:28:27 ev3dev systemd-journald[3444]: Journal started
+Jun 02 17:28:28 ev3dev systemd-journald[3444]: System journal (/var/log/journal/0a8ffb6d314b403ab9cb5dc4ba3f599d) is 456.0M, max 2.9G, 2.4G free.
+Jun 02 17:28:29 ev3dev systemd[1]: systemd-journald.service: Watchdog timeout (limit 3min)!
+Jun 02 17:28:29 ev3dev systemd[1]: systemd-journald.service: Killing process 3387 (systemd-journal) with signal SIGABRT.
+Jun 02 17:28:29 ev3dev systemd-udevd[194]: seq 35894 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 17:28:29 ev3dev systemd-udevd[194]: seq 35896 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 17:28:29 ev3dev systemd[1]: systemd-journald.service: Main process exited, code=killed, status=6/ABRT
+Jun 02 17:28:29 ev3dev systemd[1]: systemd-journald.service: Unit entered failed state.
+Jun 02 17:28:29 ev3dev systemd[1]: systemd-journald.service: Failed with result 'watchdog'.
+Jun 02 17:28:29 ev3dev systemd-udevd[194]: worker [3436] terminated by signal 9 (Killed)
+Jun 02 17:28:29 ev3dev systemd[1]: systemd-journald.service: Service has no hold-off time, scheduling restart.
+Jun 02 17:28:30 ev3dev systemd[1]: Stopped Journal Service.
+Jun 02 17:28:30 ev3dev systemd[1]: Starting Journal Service...
+Jun 02 17:28:30 ev3dev systemd-udevd[194]: worker [3436] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 12:46:10 ev3dev systemd-udevd[194]: seq 35739 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 17:28:32 ev3dev systemd[1]: Started Journal Service.
+Jun 02 12:46:29 ev3dev systemd-udevd[194]: worker [2636] terminated by signal 9 (Killed)
+Jun 02 12:46:49 ev3dev systemd-udevd[194]: worker [2637] terminated by signal 9 (Killed)
+Jun 02 17:30:22 ev3dev systemd-udevd[194]: seq 35899 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 12:46:56 ev3dev systemd-udevd[194]: worker [2637] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 12:47:53 ev3dev systemd-udevd[194]: seq 35740 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 12:49:41 ev3dev systemd-udevd[194]: seq 35738 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 12:49:50 ev3dev systemd-udevd[194]: seq 35740 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 12:50:02 ev3dev systemd-udevd[194]: worker [2652] terminated by signal 9 (Killed)
+Jun 02 12:50:25 ev3dev systemd-udevd[194]: worker [2654] terminated by signal 9 (Killed)
+Jun 02 12:51:46 ev3dev systemd-udevd[194]: seq 35743 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 17:33:58 ev3dev systemd-udevd[194]: seq 35898 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 17:35:51 ev3dev systemd-journald[3470]: Journal started
+Jun 02 17:35:53 ev3dev systemd-journald[3470]: System journal (/var/log/journal/0a8ffb6d314b403ab9cb5dc4ba3f599d) is 464.0M, max 2.9G, 2.4G free.
+Jun 02 17:35:55 ev3dev systemd[1]: systemd-journald.service: Killing process 3444 (systemd-journal) with signal SIGABRT.
+Jun 02 17:35:56 ev3dev systemd-udevd[194]: seq 35898 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 17:35:57 ev3dev systemd[1]: systemd-journald.service: Main process exited, code=killed, status=6/ABRT
+Jun 02 17:35:58 ev3dev systemd[1]: systemd-journald.service: Unit entered failed state.
+Jun 02 17:35:59 ev3dev systemd-udevd[194]: seq 35900 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 17:36:00 ev3dev systemd[1]: systemd-journald.service: Failed with result 'watchdog'.
+Jun 02 17:36:00 ev3dev systemd[1]: systemd-journald.service: Service has no hold-off time, scheduling restart.
+Jun 02 17:36:00 ev3dev systemd-udevd[194]: worker [3452] terminated by signal 9 (Killed)
+Jun 02 17:36:00 ev3dev systemd[1]: Stopped Journal Service.
+Jun 02 17:36:00 ev3dev systemd[1]: Starting Journal Service...
+Jun 02 17:36:00 ev3dev systemd-udevd[194]: worker [3452] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 12:53:15 ev3dev systemd-udevd[194]: seq 35741 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 17:36:03 ev3dev systemd[1]: Started Journal Service.
+Jun 02 12:53:20 ev3dev systemd-udevd[194]: seq 35743 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 17:38:01 ev3dev systemd-udevd[194]: seq 35903 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 17:38:46 ev3dev systemd-udevd[194]: seq 35901 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 17:38:53 ev3dev systemd-udevd[194]: seq 35901 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 12:53:34 ev3dev systemd-udevd[194]: worker [2665] terminated by signal 9 (Killed)
+Jun 02 12:55:28 ev3dev systemd-udevd[194]: seq 35744 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 12:57:05 ev3dev systemd-udevd[194]: seq 35744 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 12:57:12 ev3dev systemd-udevd[194]: worker [2669] terminated by signal 9 (Killed)
+Jun 02 12:57:35 ev3dev systemd-udevd[194]: worker [2670] terminated by signal 9 (Killed)
+Jun 02 12:57:40 ev3dev systemd-udevd[194]: worker [2670] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 17:41:22 ev3dev systemd-udevd[194]: seq 35904 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 17:43:25 ev3dev systemd-journald[3506]: Journal started
+Jun 02 17:43:26 ev3dev systemd-journald[3506]: System journal (/var/log/journal/0a8ffb6d314b403ab9cb5dc4ba3f599d) is 472.0M, max 2.9G, 2.4G free.
+Jun 02 17:43:27 ev3dev systemd[1]: systemd-journald.service: Killing process 3470 (systemd-journal) with signal SIGABRT.
+Jun 02 17:43:28 ev3dev systemd-udevd[194]: seq 35902 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 17:43:28 ev3dev systemd[1]: systemd-journald.service: Main process exited, code=killed, status=6/ABRT
+Jun 02 17:43:28 ev3dev systemd-udevd[194]: seq 35904 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 17:43:28 ev3dev systemd[1]: systemd-journald.service: Unit entered failed state.
+Jun 02 17:43:28 ev3dev systemd[1]: systemd-journald.service: Failed with result 'watchdog'.
+Jun 02 17:43:28 ev3dev systemd-udevd[194]: worker [3486] terminated by signal 9 (Killed)
+Jun 02 17:43:28 ev3dev systemd[1]: systemd-journald.service: Service has no hold-off time, scheduling restart.
+Jun 02 17:43:28 ev3dev systemd[1]: Stopped Journal Service.
+Jun 02 17:43:28 ev3dev systemd[1]: Starting Journal Service...
+Jun 02 12:59:04 ev3dev systemd-udevd[194]: seq 35745 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 17:43:30 ev3dev systemd[1]: Started Journal Service.
+Jun 02 13:00:39 ev3dev systemd-udevd[194]: seq 35747 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 13:00:54 ev3dev systemd-udevd[194]: worker [2674] terminated by signal 9 (Killed)
+Jun 02 13:01:02 ev3dev systemd-udevd[194]: worker [2674] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 17:46:55 ev3dev systemd-udevd[194]: seq 35907 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 17:46:56 ev3dev systemd-udevd[194]: seq 35905 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' killed
+Jun 02 13:01:08 ev3dev systemd-udevd[194]: worker [2676] terminated by signal 9 (Killed)
+Jun 02 13:01:11 ev3dev systemd-udevd[194]: worker [2676] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 13:02:55 ev3dev systemd-udevd[194]: seq 35746 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 13:04:11 ev3dev systemd-udevd[194]: seq 35748 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 13:04:45 ev3dev systemd-udevd[194]: worker [2680] failed while handling '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3'
+Jun 02 13:04:58 ev3dev systemd-udevd[194]: worker [2681] terminated by signal 9 (Killed)
+Jun 02 13:05:05 ev3dev systemd-udevd[194]: worker [2681] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 13:06:16 ev3dev systemd-udevd[194]: seq 35751 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 13:08:14 ev3dev systemd-udevd[194]: seq 35751 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 13:08:24 ev3dev systemd-udevd[194]: worker [2691] terminated by signal 9 (Killed)
+Jun 02 13:08:57 ev3dev systemd-udevd[194]: worker [2692] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 13:09:46 ev3dev systemd-udevd[194]: seq 35750 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 13:11:44 ev3dev systemd-udevd[194]: seq 35752 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 13:11:51 ev3dev systemd-udevd[194]: worker [2703] terminated by signal 9 (Killed)
+Jun 02 17:52:24 ev3dev systemd-udevd[194]: seq 35911 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' is taking a long time
+Jun 02 13:12:08 ev3dev systemd-udevd[194]: worker [2704] terminated by signal 9 (Killed)
+Jun 02 13:12:14 ev3dev systemd-udevd[194]: worker [2704] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+Jun 02 13:13:36 ev3dev systemd-udevd[194]: seq 35753 '/devices/platform/soc@1c00000/serial8250.1/tty/ttyS1/sensor3' is taking a long time
+Jun 02 13:15:35 ev3dev systemd-udevd[194]: seq 35755 '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4' killed
+Jun 02 13:15:41 ev3dev systemd-udevd[194]: worker [2715] terminated by signal 9 (Killed)
+Jun 02 13:16:18 ev3dev systemd-udevd[194]: worker [2716] failed while handling '/devices/platform/soc@1c00000/serial8250.0/tty/ttyS0/sensor4'
+
+robot@ev3dev:~$ 
